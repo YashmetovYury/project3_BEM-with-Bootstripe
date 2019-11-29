@@ -1,6 +1,7 @@
 @import 'font.css';
 
 body {
+    font-family: 'Open Sans Semibold';
     background: gray;
 }
 
@@ -20,11 +21,62 @@ ul, li {
     margin-left: 37px;
 }
 .menu__item a {
-    font-family: 'Open Sans Semibold';
     font-size: 20px;
     color: #212121;
 }
 .menu__item a:hover {
     text-decoration: none;
     color: rgb(0, 132, 255);
+}
+/*Header*/
+.header > div {
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(../img/header.png);
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s;
+}
+.button_empty {
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+}.button_empty:hover,
+.button_full:hover {
+border: 2px dotted white;
+background: #189b8e;
+}
+/*about*/
+
+.about > div {
+    padding-top: 120px;
+    padding-bottom: 125px;
+    color: black;
+    background: white;
+    text-align: center;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text {
+    margin-bottom: 110px;
+    font-size: 15px;
+
 }
